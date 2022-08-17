@@ -7,7 +7,7 @@ import './estilos.css';
 
 ReactDom.createRoot( document.getElementById('root')).render (
     <React.StrictMode>
-        <FirstApp />
+        <FirstApp title="Hola, soy Rogger" />
 
     </React.StrictMode>
 );

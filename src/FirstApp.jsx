@@ -17,14 +17,14 @@
 //Continua la clase
 
 
-export const FirstApp = (props) => {
-    console.log(props);
+export const FirstApp = ({title, subTitle}) => {
+    // console.log(props);
 
     
   return (
     <>
-    <h1>{props.title}</h1>
-    <p>Soy developer Junior Frontend</p>
+        <h1>{ title }</h1>
+        <p>{subTitle}</p>
     </>
   )
 }
