@@ -7,7 +7,7 @@ import './estilos.css';
 
 ReactDom.createRoot( document.getElementById('root')).render (
     <React.StrictMode>
-        <FirstApp title="Hola, soy Rogger" />
+        <FirstApp title="Hola, Soy Rogger Salazar" subTitle={27}/>
 
     </React.StrictMode>
 );
